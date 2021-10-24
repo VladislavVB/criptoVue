@@ -206,7 +206,6 @@
       </template>
       <section v-if="sel" class="relative">
         <h3 class="text-lg leading-6 font-medium text-gray-900 my-8">
-          
           {{ sel.name }} - USD
         </h3>
         <div class="flex items-end border-gray-600 border-b border-l h-64">
@@ -305,5 +304,3 @@ export default {
   },
 };
 </script>
-
-<style src="./app.css"></style>
